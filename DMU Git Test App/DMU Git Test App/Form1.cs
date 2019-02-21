@@ -16,5 +16,10 @@ namespace DMU_Git_Test_App
         {
             InitializeComponent();
         }
+
+        private void buttonMessage_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("I am a Happy Monkey!");
+        }
     }
 }
