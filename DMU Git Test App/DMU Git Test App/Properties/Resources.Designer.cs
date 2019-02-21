@@ -63,6 +63,16 @@ namespace DMU_Git_Test_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _10b4a3741f78eabb90b705eaf3b5328f {
+            get {
+                object obj = ResourceManager.GetObject("10b4a3741f78eabb90b705eaf3b5328f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _71wW4LkoLbL__SY450_ {
             get {
                 object obj = ResourceManager.GetObject("71wW4LkoLbL._SY450_", resourceCulture);
