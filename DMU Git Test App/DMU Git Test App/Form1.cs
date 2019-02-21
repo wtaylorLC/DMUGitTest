@@ -21,5 +21,16 @@ namespace DMU_Git_Test_App
         {
             MessageBox.Show("I am a Happy Monkey!");
         }
+
+        private void buttonChangeColour_Click(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+
+            byte randR = (byte)rnd.Next(255);
+            byte randG = (byte)rnd.Next(255);
+            byte randB = (byte)rnd.Next(255);
+
+            this.BackColor = Color.FromArgb(randR, randG, randB);
+        }
     }
 }

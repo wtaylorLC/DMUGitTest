@@ -30,6 +30,7 @@
         {
             this.pictureBoxMonkey = new System.Windows.Forms.PictureBox();
             this.buttonMessage = new System.Windows.Forms.Button();
+            this.buttonChangeColour = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMonkey)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,11 +56,24 @@
             this.buttonMessage.UseVisualStyleBackColor = true;
             this.buttonMessage.Click += new System.EventHandler(this.buttonMessage_Click);
             // 
+            // buttonChangeColour
+            // 
+            this.buttonChangeColour.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonChangeColour.Location = new System.Drawing.Point(12, 281);
+            this.buttonChangeColour.Name = "buttonChangeColour";
+            this.buttonChangeColour.Size = new System.Drawing.Size(200, 39);
+            this.buttonChangeColour.TabIndex = 2;
+            this.buttonChangeColour.Text = "Change Colour";
+            this.buttonChangeColour.UseVisualStyleBackColor = true;
+            this.buttonChangeColour.Click += new System.EventHandler(this.buttonChangeColour_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(224, 284);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ClientSize = new System.Drawing.Size(224, 335);
+            this.Controls.Add(this.buttonChangeColour);
             this.Controls.Add(this.buttonMessage);
             this.Controls.Add(this.pictureBoxMonkey);
             this.Name = "Form1";
@@ -73,6 +87,7 @@
 
         private System.Windows.Forms.PictureBox pictureBoxMonkey;
         private System.Windows.Forms.Button buttonMessage;
+        private System.Windows.Forms.Button buttonChangeColour;
     }
 }
 
