@@ -59,12 +59,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(224, 283);
             this.Controls.Add(this.buttonMessage);
             this.Controls.Add(this.pictureBoxMonkey1);
             this.Name = "Form1";
-            this.Text = "DMU Git Test";
+            this.Text = "DMU Git Test!";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMonkey1)).EndInit();
             this.ResumeLayout(false);
 
